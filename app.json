@@ -1,5 +1,11 @@
 {
   "pages": [
     "pages/classic/classic"
-  ]
+  ],
+
+  "window": {
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "Lucy's Grocery Store",
+    "navigationBarTextStyle": "black"
+  }
 }
