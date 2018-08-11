@@ -4,8 +4,10 @@
   ],
 
   "window": {
-    "navigationBarBackgroundColor": "white",
-    "navigationBarTitleText": "Lucy's Grocery Store",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#A81234",
+    "navigationBarTitleText": "Lucy's Shop",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "backgroundColor": "#ffffff"
   }
 }
