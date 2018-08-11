@@ -1,7 +1,10 @@
 /* pages/classic/classic.wxss */
 
+.container {
+  display: flex;
+}
+
 .chunk {
-  display: inline-block;
   width:100px;
   height:100px;
   background-color: rosybrown;
