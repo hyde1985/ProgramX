@@ -1,5 +1,14 @@
 /* components/like/index.wxss */
 .container {
-  width:32px;
-  height:28px;
+  
+}
+
+.container image {
+  width:32rpx;
+  height:28rpx;
+}
+
+.container text {
+  color: #bbbbbb;
+  font-size: 24rpx;
 }
