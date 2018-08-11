@@ -1,6 +1,6 @@
 /* components/like/index.wxss */
 .container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   padding:10rpx;
 }
