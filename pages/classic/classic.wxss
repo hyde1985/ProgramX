@@ -2,7 +2,11 @@
 
 .container {
   display: flex;
-  flex-direction: column;
+  /*row column row-reverse column-reverse*/
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  background-color: #999999;
+  height: 400px;
 }
 
 .chunk {
