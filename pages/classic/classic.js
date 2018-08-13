@@ -17,6 +17,9 @@ Page({
       header:{
         appkey:"6nMYwmgbMcBkvQL0",
       },
+      success:function(res) {
+        console.log(res)
+      },
     })
   },
 
