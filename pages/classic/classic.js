@@ -1,7 +1,6 @@
-import {HTTP} from '/util/http.js'
+import {HTTP} from '../../util/http.js'
 
 let http = new HTTP()
-
 
 Page({
 
@@ -16,15 +15,21 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      url: 'http://bl.7yue.pro/v1/classic/latest',
-      header:{
-        appkey:"6nMYwmgbMcBkvQL0",
-      },
-      success:(res) => {
+    http.request({
+      url: '/classic/latest',
+      success:(res)=>{
         console.log(res)
-      },
+      }
     })
+    // wx.request({
+    //   url: 'http://bl.7yue.pro/v1/classic/latest',
+    //   header:{
+    //     appkey:"6nMYwmgbMcBkvQL0",
+    //   },
+    //   success:(res) => {
+    //     console.log(res)
+    //   },
+    // })
   },
 
   /**
