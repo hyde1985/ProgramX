@@ -1,4 +1,8 @@
-// pages/classic/classic.js
+import {HTTP} from '/util/http.js'
+
+let http = new HTTP()
+
+
 Page({
 
   /**
@@ -17,7 +21,7 @@ Page({
       header:{
         appkey:"6nMYwmgbMcBkvQL0",
       },
-      success:function(res) {
+      success:(res) => {
         console.log(res)
       },
     })
